@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+.cv {
+  width: 794px;
+  margin: 30px auto;
+  background: white;
+  display: grid;
+  grid-template-columns: 32% 68%;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.left {
+  background: #1f313a;
+  color: white;
+  padding: 35px 25px;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile img {
+  width: 140px;
+  height: 160px;
+  border-radius: 5%;
+  object-fit: cover;
+  border: 2px solid #b39359;
+  margin-bottom: 15px;
+}
+
+.left-section {
+  margin-bottom: 25px;
+}
+
+.left-section h2 {
+  font-size: 15px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #b39359;
+  color: #ffffff;
+  padding-bottom: 7px;
+  margin-bottom: 12px;
+}
+
+.contact ul {
+  padding: 0;
+  margin: 0;
+}
+
+.contact li {
+  font-size: 12px;
+  margin: 10px 15px;
+  line-height: 1.5;
+  word-break: break-word;
+  color: #e2e8f0;
+}
+
+.skills li {
+  font-size: 13px;
+  margin: 8px 15px;
+  color: #e2e8f0;
+}
+
+.languages li {
+  font-size: 13px;
+  margin: 8px 15px;
+  color: #e2e8f0;
+}
+
+.interest li {
+  font-size: 13px;
+  margin: 8px 15px;
+  color: #e2e8f0;
+}
+
+.right {
+  padding: 35px 35px;
+}
+
+.name_job h1 {
+  font-size: 40px;
+  color: #1f313a;
+}
+
+.name_job p {
+  font-size: 18px;
+  color: #475569;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 28px;
+}
+
+.section-title {
+  font-size: 20px;
+  color: #1f313a;
+  border-bottom: 3px solid #b39359;
+  padding-bottom: 7px;
+  margin-bottom: 15px;
+}
+
+.about {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #334155;
+}
+
+.item {
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 18px;
+  border-left: 3px solid #d4be88;
+}
+
+.item h3 {
+  font-size: 16px;
+  color: #1f313a;
+  margin-bottom: 5px;
+}
+
+.item .languages {
+  color: #b39359;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.item .date {
+  color: #b39359;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.item p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #475569;
+}
